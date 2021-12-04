@@ -16,14 +16,19 @@ class Helper: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    static func Alert(title:String,message:String,hasReturn:Bool,over viewController:UIViewController){
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert);
+        let okAlertAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+        let returnAlertAction = UIAlertAction(title: "Önceki Sayfa", style: UIAlertAction.Style.default) { Action in
+            NotificationCenter.default.post(name: NSNotification.Name("newPlace"), object: nil)
+            viewController.navigationController?.popViewController(animated: true)
+        }
+        alert.addAction(okAlertAction)
+        if hasReturn {
+            alert.addAction(returnAlertAction)
+        }
+        viewController.present(alert, animated: true, completion: nil)
+        
     }
-    */
 
 }

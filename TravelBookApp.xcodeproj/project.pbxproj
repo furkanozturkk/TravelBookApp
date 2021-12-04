@@ -14,6 +14,8 @@
 		47E01982274D921200353B19 /* TravelBookApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47E01980274D921200353B19 /* TravelBookApp.xcdatamodeld */; };
 		47E01984274D921400353B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E01983274D921400353B19 /* Assets.xcassets */; };
 		47E01987274D921400353B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E01985274D921400353B19 /* LaunchScreen.storyboard */; };
+		47E0198F27568DB700353B19 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E0198E27568DB700353B19 /* ListViewController.swift */; };
+		47E01991275B6E4000353B19 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E01990275B6E3F00353B19 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		47E01983274D921400353B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47E01986274D921400353B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47E01988274D921400353B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E0198E27568DB700353B19 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		47E01990275B6E3F00353B19 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				47E01985274D921400353B19 /* LaunchScreen.storyboard */,
 				47E01988274D921400353B19 /* Info.plist */,
 				47E01980274D921200353B19 /* TravelBookApp.xcdatamodeld */,
+				47E0198E27568DB700353B19 /* ListViewController.swift */,
+				47E01990275B6E3F00353B19 /* Helper.swift */,
 			);
 			path = TravelBookApp;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 				47E01982274D921200353B19 /* TravelBookApp.xcdatamodeld in Sources */,
 				47E0197C274D921200353B19 /* ViewController.swift in Sources */,
 				47E01978274D921200353B19 /* AppDelegate.swift in Sources */,
+				47E0198F27568DB700353B19 /* ListViewController.swift in Sources */,
 				47E0197A274D921200353B19 /* SceneDelegate.swift in Sources */,
+				47E01991275B6E4000353B19 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
